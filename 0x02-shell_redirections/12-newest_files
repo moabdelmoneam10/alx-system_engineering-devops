@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -clt | cut -d ' ' -f 9 | sort -r |grep -v '^$'
+ls -clt | cut -d ' ' -f 9 |grep -v '^$'
