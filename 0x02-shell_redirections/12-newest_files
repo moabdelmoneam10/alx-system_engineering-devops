@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -clt | awk 'NR>1 {print $9}'
+ls -clt | cut -d ' ' -f 9 | sed '/^$/d'
