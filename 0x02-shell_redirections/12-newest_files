@@ -1,0 +1,3 @@
+#!/bin/bash
+ls -clt | cut -d ' ' -f 9
+
